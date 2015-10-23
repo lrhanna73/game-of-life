@@ -48,6 +48,7 @@
                     <manifest>
                         <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                     </manifest>
+                    <packagingExcludes>WEB-INF/web.xml</packagingExcludes>
                     <archive>
                         <manifestEntries>
                             <Specification-Title>${project.name}</Specification-Title>
